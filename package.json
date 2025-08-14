@@ -1,16 +1,19 @@
 {
   "name": "cargaison-api",
   "version": "1.0.0",
+  "description": "API pour la gestion de cargaisons et colis",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "json-server --watch db.json --port 3000",
+    "build": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "description": "",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "license": "MIT"
 }

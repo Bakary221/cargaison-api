@@ -1,0 +1,235 @@
+{
+  "cargaisons": [
+    {
+      "id": 1,
+      "numeroCargaison": "CAR-2023-001",
+      "poidsMax": 5000,
+      "typeCargaison": "MARITIME",
+      "etatGlobal": "OUVERTE",
+      "etatAvancement": "EN ATTENTE",
+      "distanceKm": 1200,
+      "trajetId": 1,
+      "colisIds": [1, 2],
+      "dateCreation": "2023-01-15T08:00:00Z",
+      "dateDepart": "2023-01-20T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "numeroCargaison": "CAR-2023-002",
+      "poidsMax": 2000,
+      "typeCargaison": "AERIENNE",
+      "etatGlobal": "FERMEE",
+      "etatAvancement": "ARRIVEE",
+      "distanceKm": 3500,
+      "trajetId": 2,
+      "colisIds": [3, 4],
+      "dateCreation": "2023-02-10T09:30:00Z",
+      "dateDepart": "2023-02-15T14:00:00Z",
+      "dateArrivee": "2023-02-16T16:30:00Z"
+    },
+    {
+      "id": 3,
+      "numeroCargaison": "CAR-2023-003",
+      "poidsMax": 10000,
+      "typeCargaison": "ROUTIERE",
+      "etatGlobal": "OUVERTE",
+      "etatAvancement": "EN COURS",
+      "distanceKm": 800,
+      "trajetId": 3,
+      "colisIds": [5, 6, 7],
+      "dateCreation": "2023-03-05T10:15:00Z",
+      "dateDepart": "2023-03-08T08:00:00Z"
+    }
+  ],
+  "colis": [
+    {
+      "id": 1,
+      "numeroColis": "COL-2023-001-01",
+      "description": "Matériel électronique fragile",
+      "poids": 15.5,
+      "degreToxicite": 0,
+      "dateExpedition": "2023-01-10T09:00:00Z",
+      "typeColis": "MATERIEL FRAGILE",
+      "etatColis": "EN ATTENTE",
+      "expediteurId": 1,
+      "destinataireId": 2,
+      "cargaisonId": 1
+    },
+    {
+      "id": 2,
+      "numeroColis": "COL-2023-001-02",
+      "description": "Produits alimentaires secs",
+      "poids": 25.0,
+      "degreToxicite": 0,
+      "dateExpedition": "2023-01-12T10:30:00Z",
+      "typeColis": "ALIMENTAIRE",
+      "etatColis": "EN ATTENTE",
+      "expediteurId": 3,
+      "destinataireId": 4,
+      "cargaisonId": 1
+    },
+    {
+      "id": 3,
+      "numeroColis": "COL-2023-002-01",
+      "description": "Produits chimiques industriels",
+      "poids": 12.0,
+      "degreToxicite": 3,
+      "dateExpedition": "2023-02-05T08:15:00Z",
+      "dateArrivee": "2023-02-16T16:30:00Z",
+      "typeColis": "CHIMIQUE",
+      "etatColis": "ARRIVE",
+      "expediteurId": 2,
+      "destinataireId": 5,
+      "cargaisonId": 2
+    },
+    {
+      "id": 4,
+      "numeroColis": "COL-2023-002-02",
+      "description": "Pièces automobiles",
+      "poids": 18.5,
+      "degreToxicite": 0,
+      "dateExpedition": "2023-02-08T11:00:00Z",
+      "dateArrivee": "2023-02-16T16:30:00Z",
+      "typeColis": "MATERIEL INCASSABLE",
+      "etatColis": "RECUPERE",
+      "expediteurId": 4,
+      "destinataireId": 1,
+      "cargaisonId": 2
+    },
+    {
+      "id": 5,
+      "numeroColis": "COL-2023-003-01",
+      "description": "Meubles en bois",
+      "poids": 120.0,
+      "degreToxicite": 0,
+      "dateExpedition": "2023-03-01T14:00:00Z",
+      "typeColis": "MATERIEL INCASSABLE",
+      "etatColis": "EN COURS",
+      "expediteurId": 5,
+      "destinataireId": 3,
+      "cargaisonId": 3
+    },
+    {
+      "id": 6,
+      "numeroColis": "COL-2023-003-02",
+      "description": "Appareils médicaux",
+      "poids": 35.0,
+      "degreToxicite": 1,
+      "dateExpedition": "2023-03-03T10:45:00Z",
+      "typeColis": "MATERIEL FRAGILE",
+      "etatColis": "EN COURS",
+      "expediteurId": 1,
+      "destinataireId": 4,
+      "cargaisonId": 3
+    },
+    {
+      "id": 7,
+      "numeroColis": "COL-2023-003-03",
+      "description": "Produits pharmaceutiques",
+      "poids": 8.5,
+      "degreToxicite": 2,
+      "dateExpedition": "2023-03-04T09:30:00Z",
+      "typeColis": "CHIMIQUE",
+      "etatColis": "EN COURS",
+      "expediteurId": 3,
+      "destinataireId": 2,
+      "cargaisonId": 3
+    }
+  ],
+  "personnes": [
+    {
+      "id": 1,
+      "nom": "Dupont",
+      "prenom": "Jean",
+      "adresse": "12 Rue de la Paix, Paris",
+      "telephone": "+33123456789",
+      "email": "jean.dupont@example.com",
+      "type": "CLIENT",
+      "colisIds": [1, 6]
+    },
+    {
+      "id": 2,
+      "nom": "Martin",
+      "prenom": "Sophie",
+      "adresse": "45 Avenue des Champs, Lyon",
+      "telephone": "+33456789123",
+      "email": "sophie.martin@example.com",
+      "type": "CLIENT",
+      "colisIds": [3, 7]
+    },
+    {
+      "id": 3,
+      "nom": "Bernard",
+      "prenom": "Pierre",
+      "adresse": "8 Boulevard Maritime, Marseille",
+      "telephone": "+33456789124",
+      "email": "pierre.bernard@example.com",
+      "type": "CLIENT",
+      "colisIds": [2, 5]
+    },
+    {
+      "id": 4,
+      "nom": "Petit",
+      "prenom": "Marie",
+      "adresse": "32 Rue du Commerce, Lille",
+      "telephone": "+33345678912",
+      "email": "marie.petit@example.com",
+      "type": "CLIENT",
+      "colisIds": [4, 6]
+    },
+    {
+      "id": 5,
+      "nom": "Durand",
+      "prenom": "Luc",
+      "adresse": "5 Avenue Industrielle, Bordeaux",
+      "telephone": "+33567891234",
+      "email": "luc.durand@example.com",
+      "type": "CLIENT",
+      "colisIds": [3, 5]
+    },
+    {
+      "id": 6,
+      "nom": "Leroy",
+      "prenom": "Admin",
+      "adresse": "1 Rue des Gestionnaires, Paris",
+      "telephone": "+33198765432",
+      "email": "admin@cargaison.com",
+      "type": "GESTIONNAIRE",
+      "login": "admin",
+      "motDePasse": "admin123",
+      "colisIds": []
+    }
+  ],
+  "trajets": [
+    {
+      "idTrajet": 1,
+      "lieuDepart": "Paris",
+      "lieuArrivee": "Marseille",
+      "latitudeDepart": 48.8566,
+      "longitudeDepart": 2.3522,
+      "latitudeArrivee": 43.2965,
+      "longitudeArrivee": 5.3698,
+      "cargaisonsIds": [1]
+    },
+    {
+      "idTrajet": 2,
+      "lieuDepart": "Lyon",
+      "lieuArrivee": "New York",
+      "latitudeDepart": 45.7640,
+      "longitudeDepart": 4.8357,
+      "latitudeArrivee": 40.7128,
+      "longitudeArrivee": -74.0060,
+      "cargaisonsIds": [2]
+    },
+    {
+      "idTrajet": 3,
+      "lieuDepart": "Lille",
+      "lieuArrivee": "Bordeaux",
+      "latitudeDepart": 50.6292,
+      "longitudeDepart": 3.0573,
+      "latitudeArrivee": 44.8378,
+      "longitudeArrivee": -0.5792,
+      "cargaisonsIds": [3]
+    }
+  ]
+}

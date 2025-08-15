@@ -470,147 +470,176 @@
     }
   ],
   "personnes": [
-    {
-      "idPersonne": 1,
-      "nom": "Diallo",
-      "prenom": "Moussa",
-      "telephone": "771111111",
-      "email": "moussa.diallo@example.com"
-    },
-    {
-      "idPersonne": 2,
-      "nom": "Fall",
-      "prenom": "Aminata",
-      "telephone": "772222222",
-      "email": "aminata.fall@example.com"
-    },
-    {
-      "idPersonne": 3,
-      "nom": "Ndiaye",
-      "prenom": "Cheikh",
-      "telephone": "773333333",
-      "email": "cheikh.ndiaye@example.com"
-    },
-    {
-      "idPersonne": 4,
-      "nom": "Diop",
-      "prenom": "Fatou",
-      "telephone": "774444444",
-      "email": "fatou.diop@example.com"
-    },
-    {
-      "idPersonne": 5,
-      "nom": "Ba",
-      "prenom": "Ibrahima",
-      "telephone": "775555555",
-      "email": "ibrahima.ba@example.com"
-    },
-    {
-      "idPersonne": 6,
-      "nom": "Gueye",
-      "prenom": "Khady",
-      "telephone": "776666666",
-      "email": "khady.gueye@example.com"
-    },
-    {
-      "idPersonne": 7,
-      "nom": "Sy",
-      "prenom": "Mamadou",
-      "telephone": "777777777",
-      "email": "mamadou.sy@example.com"
-    },
-    {
-      "idPersonne": 8,
-      "nom": "Sow",
-      "prenom": "Aissatou",
-      "telephone": "778888888",
-      "email": "aissatou.sow@example.com"
-    },
-    {
-      "idPersonne": 9,
-      "nom": "Camara",
-      "prenom": "Oumar",
-      "telephone": "779999999",
-      "email": "oumar.camara@example.com"
-    },
-    {
-      "idPersonne": 10,
-      "nom": "Ka",
-      "prenom": "Mariama",
-      "telephone": "780101010",
-      "email": "mariama.ka@example.com"
-    },
-    {
-      "idPersonne": 11,
-      "nom": "Cissé",
-      "prenom": "Alioune",
-      "telephone": "780202020",
-      "email": "alioune.cisse@example.com"
-    },
-    {
-      "idPersonne": 12,
-      "nom": "Mbaye",
-      "prenom": "Adama",
-      "telephone": "780303030",
-      "email": "adama.mbaye@example.com"
-    },
-    {
-      "idPersonne": 13,
-      "nom": "Barry",
-      "prenom": "Coumba",
-      "telephone": "780404040",
-      "email": "coumba.barry@example.com"
-    },
-    {
-      "idPersonne": 14,
-      "nom": "Kane",
-      "prenom": "Ismaila",
-      "telephone": "780505050",
-      "email": "ismaila.kane@example.com"
-    },
-    {
-      "idPersonne": 15,
-      "nom": "Seck",
-      "prenom": "Astou",
-      "telephone": "780606060",
-      "email": "astou.seck@example.com"
-    },
-    {
-      "idPersonne": 16,
-      "nom": "Dieng",
-      "prenom": "Pape",
-      "telephone": "780707070",
-      "email": "pape.dieng@example.com"
-    },
-    {
-      "idPersonne": 17,
-      "nom": "Ngom",
-      "prenom": "Sokhna",
-      "telephone": "780808080",
-      "email": "sokhna.ngom@example.com"
-    },
-    {
-      "idPersonne": 18,
-      "nom": "Tall",
-      "prenom": "Serigne",
-      "telephone": "780909090",
-      "email": "serigne.tall@example.com"
-    },
-    {
-      "idPersonne": 19,
-      "nom": "Sarr",
-      "prenom": "Ndèye",
-      "telephone": "781010101",
-      "email": "ndeye.sarr@example.com"
-    },
-    {
-      "idPersonne": 20,
-      "nom": "Faye",
-      "prenom": "Abdou",
-      "telephone": "781111111",
-      "email": "abdou.faye@example.com"
-    }
-  ],
+  {
+    "idPersonne": 1,
+    "nom": "Diallo",
+    "prenom": "Moussa",
+    "telephone": "771111111",
+    "email": "moussa.diallo@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 2,
+    "nom": "Fall",
+    "prenom": "Aminata",
+    "telephone": "772222222",
+    "email": "aminata.fall@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 3,
+    "nom": "Ndiaye",
+    "prenom": "Cheikh",
+    "telephone": "773333333",
+    "email": "cheikh.ndiaye@example.com",
+    "typePersonne": "GESTIONNAIRE",
+    "login": "cndiaye",
+    "password": "pass123"
+  },
+  {
+    "idPersonne": 4,
+    "nom": "Diop",
+    "prenom": "Fatou",
+    "telephone": "774444444",
+    "email": "fatou.diop@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 5,
+    "nom": "Ba",
+    "prenom": "Ibrahima",
+    "telephone": "775555555",
+    "email": "ibrahima.ba@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 6,
+    "nom": "Gueye",
+    "prenom": "Khady",
+    "telephone": "776666666",
+    "email": "khady.gueye@example.com",
+    "typePersonne": "GESTIONNAIRE",
+    "login": "kgueye",
+    "password": "pass456"
+  },
+  {
+    "idPersonne": 7,
+    "nom": "Sy",
+    "prenom": "Mamadou",
+    "telephone": "777777777",
+    "email": "mamadou.sy@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 8,
+    "nom": "Sow",
+    "prenom": "Aissatou",
+    "telephone": "778888888",
+    "email": "aissatou.sow@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 9,
+    "nom": "Camara",
+    "prenom": "Oumar",
+    "telephone": "779999999",
+    "email": "oumar.camara@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 10,
+    "nom": "Ka",
+    "prenom": "Mariama",
+    "telephone": "780101010",
+    "email": "mariama.ka@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 11,
+    "nom": "Cissé",
+    "prenom": "Alioune",
+    "telephone": "780202020",
+    "email": "alioune.cisse@example.com",
+    "typePersonne": "GESTIONNAIRE",
+    "login": "acisse",
+    "password": "pass789"
+  },
+  {
+    "idPersonne": 12,
+    "nom": "Mbaye",
+    "prenom": "Adama",
+    "telephone": "780303030",
+    "email": "adama.mbaye@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 13,
+    "nom": "Barry",
+    "prenom": "Coumba",
+    "telephone": "780404040",
+    "email": "coumba.barry@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 14,
+    "nom": "Kane",
+    "prenom": "Ismaila",
+    "telephone": "780505050",
+    "email": "ismaila.kane@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 15,
+    "nom": "Seck",
+    "prenom": "Astou",
+    "telephone": "780606060",
+    "email": "astou.seck@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 16,
+    "nom": "Dieng",
+    "prenom": "Pape",
+    "telephone": "780707070",
+    "email": "pape.dieng@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 17,
+    "nom": "Ngom",
+    "prenom": "Sokhna",
+    "telephone": "780808080",
+    "email": "sokhna.ngom@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 18,
+    "nom": "Tall",
+    "prenom": "Serigne",
+    "telephone": "780909090",
+    "email": "serigne.tall@example.com",
+    "typePersonne": "GESTIONNAIRE",
+    "login": "stall",
+    "password": "pass321"
+  },
+  {
+    "idPersonne": 19,
+    "nom": "Sarr",
+    "prenom": "Ndèye",
+    "telephone": "781010101",
+    "email": "ndeye.sarr@example.com",
+    "typePersonne": "CLIENT"
+  },
+  {
+    "idPersonne": 20,
+    "nom": "Faye",
+    "prenom": "Abdou",
+    "telephone": "781111111",
+    "email": "abdou.faye@example.com",
+    "typePersonne": "CLIENT"
+  }
+]
+,
     "trajets": [
     {
         "idTrajet": 1,

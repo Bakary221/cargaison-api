@@ -270,6 +270,7 @@
   "colis": [
     {
         "idColis": "1",
+        "codeColis": "COL-001",
         "description": "Documents administratifs",
         "poids": 2.5,
         "degreToxicite": null,
@@ -283,6 +284,7 @@
     },
     {
         "idColis": "2",
+        "codeColis": "COL-002",
         "description": "Ordinateur portable",
         "poids": 3.2,
         "degreToxicite": null,

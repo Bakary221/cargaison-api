@@ -276,7 +276,7 @@
         "dateExpedition": "2025-08-15T00:00:00Z",
         "dateArrivee": null,
         "typeColis": "Standard",
-        "etatColis": "EN_ATTENTE",
+        "etatColis": "EN ATTENTE",
         "expediteur": 1 ,
         "destinataire": 5 ,
         "cargaison": 1 
@@ -287,9 +287,9 @@
         "poids": 3.2,
         "degreToxicite": null,
         "dateExpedition": "2025-08-15T00:00:00Z",
-        "dateArrivee": null,
+        "dateArrivee": "2025-08-15T00:00:00Z",
         "typeColis": "Fragile",
-        "etatColis": "EN_ATTENTE",
+        "etatColis": "EN ATTENTE",
         "expediteur":  2 ,
         "destinataire": 6 ,
         "cargaison": 1

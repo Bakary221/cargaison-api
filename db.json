@@ -296,14 +296,15 @@
     }
     ],
 
-  "personnes": [
+ "personnes": [
   {
     "idPersonne": 1,
     "nom": "Diallo",
     "prenom": "Moussa",
     "telephone": "771111111",
     "email": "moussa.diallo@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Dakar, Médina"
   },
   {
     "idPersonne": 2,
@@ -311,7 +312,8 @@
     "prenom": "Aminata",
     "telephone": "772222222",
     "email": "aminata.fall@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Thiès, Grand Standing"
   },
   {
     "idPersonne": 3,
@@ -321,7 +323,8 @@
     "email": "cheikh.ndiaye@example.com",
     "typePersonne": "GESTIONNAIRE",
     "login": "cndiaye",
-    "password": "pass123"
+    "password": "pass123",
+    "adresse": "Dakar, Plateau"
   },
   {
     "idPersonne": 4,
@@ -329,7 +332,8 @@
     "prenom": "Fatou",
     "telephone": "774444444",
     "email": "fatou.diop@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Saint-Louis, Sor"
   },
   {
     "idPersonne": 5,
@@ -337,7 +341,8 @@
     "prenom": "Ibrahima",
     "telephone": "775555555",
     "email": "ibrahima.ba@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Kaolack, Médina Mbabass"
   },
   {
     "idPersonne": 6,
@@ -347,7 +352,8 @@
     "email": "khady.gueye@example.com",
     "typePersonne": "GESTIONNAIRE",
     "login": "kgueye",
-    "password": "pass456"
+    "password": "pass456",
+    "adresse": "Dakar, Liberté 6"
   },
   {
     "idPersonne": 7,
@@ -355,7 +361,8 @@
     "prenom": "Mamadou",
     "telephone": "777777777",
     "email": "mamadou.sy@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Louga, Ndiagne"
   },
   {
     "idPersonne": 8,
@@ -363,7 +370,8 @@
     "prenom": "Aissatou",
     "telephone": "778888888",
     "email": "aissatou.sow@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Ziguinchor, Lyndiane"
   },
   {
     "idPersonne": 9,
@@ -371,7 +379,8 @@
     "prenom": "Oumar",
     "telephone": "779999999",
     "email": "oumar.camara@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Mbour, Saly Carrefour"
   },
   {
     "idPersonne": 10,
@@ -379,7 +388,8 @@
     "prenom": "Mariama",
     "telephone": "780101010",
     "email": "mariama.ka@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Tambacounda, Diallobougou"
   },
   {
     "idPersonne": 11,
@@ -389,7 +399,8 @@
     "email": "alioune.cisse@example.com",
     "typePersonne": "GESTIONNAIRE",
     "login": "acisse",
-    "password": "pass789"
+    "password": "pass789",
+    "adresse": "Dakar, Point E"
   },
   {
     "idPersonne": 12,
@@ -397,7 +408,8 @@
     "prenom": "Adama",
     "telephone": "780303030",
     "email": "adama.mbaye@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Kaolack, Médina Baye"
   },
   {
     "idPersonne": 13,
@@ -405,7 +417,8 @@
     "prenom": "Coumba",
     "telephone": "780404040",
     "email": "coumba.barry@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Thiès, Cité Malick Sy"
   },
   {
     "idPersonne": 14,
@@ -413,7 +426,8 @@
     "prenom": "Ismaila",
     "telephone": "780505050",
     "email": "ismaila.kane@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Saint-Louis, Bango"
   },
   {
     "idPersonne": 15,
@@ -421,7 +435,8 @@
     "prenom": "Astou",
     "telephone": "780606060",
     "email": "astou.seck@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Fatick, Foundiougne"
   },
   {
     "idPersonne": 16,
@@ -429,7 +444,8 @@
     "prenom": "Pape",
     "telephone": "780707070",
     "email": "pape.dieng@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Louga, Keur Serigne Louga"
   },
   {
     "idPersonne": 17,
@@ -437,7 +453,8 @@
     "prenom": "Sokhna",
     "telephone": "780808080",
     "email": "sokhna.ngom@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Dakar, Pikine"
   },
   {
     "idPersonne": 18,
@@ -447,7 +464,8 @@
     "email": "serigne.tall@example.com",
     "typePersonne": "GESTIONNAIRE",
     "login": "stall",
-    "password": "pass321"
+    "password": "pass321",
+    "adresse": "Touba, Darou Khoudoss"
   },
   {
     "idPersonne": 19,
@@ -455,7 +473,8 @@
     "prenom": "Ndèye",
     "telephone": "781010101",
     "email": "ndeye.sarr@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Dakar, Derklé"
   },
   {
     "idPersonne": 20,
@@ -463,9 +482,11 @@
     "prenom": "Abdou",
     "telephone": "781111111",
     "email": "abdou.faye@example.com",
-    "typePersonne": "CLIENT"
+    "typePersonne": "CLIENT",
+    "adresse": "Saint-Louis, Sanar"
   }
 ]
+
 ,
     "trajets": [
     {

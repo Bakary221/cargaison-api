@@ -277,7 +277,7 @@
         "dateExpedition": "2025-08-15T00:00:00Z",
         "dateArrivee": null,
         "typeColis": "Standard",
-        "etatColis": "EN ATTENTE",
+        "etatColis": "EN COURS",
         "expediteur": 1 ,
         "destinataire": 5 ,
         "cargaison": 1 
